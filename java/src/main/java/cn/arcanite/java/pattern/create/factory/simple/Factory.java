@@ -1,8 +1,8 @@
-package cn.arcanite.java.pattern.factory.simple;
+package cn.arcanite.java.pattern.create.factory.simple;
 
-import cn.arcanite.java.pattern.factory.simple.product.ApplePad;
-import cn.arcanite.java.pattern.factory.simple.product.HuaweiPad;
-import cn.arcanite.java.pattern.factory.simple.product.MiPad;
+import cn.arcanite.java.pattern.create.factory.simple.product.ApplePad;
+import cn.arcanite.java.pattern.create.factory.simple.product.HuaweiPad;
+import cn.arcanite.java.pattern.create.factory.simple.product.MiPad;
 
 /**
  * 简单工厂模式，也称为静态工厂方法模式，由一个工厂对象决定创建出哪一种产品类的实例。

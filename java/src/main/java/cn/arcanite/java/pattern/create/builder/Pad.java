@@ -1,4 +1,4 @@
-package cn.arcanite.java.pattern.builder;
+package cn.arcanite.java.pattern.create.builder;
 
 import java.math.BigDecimal;
 
@@ -38,10 +38,6 @@ public class Pad {
         this.title = stringBuilder.toString();
     }
 
-    public static Pad load(Builder builder) {
-        return new Pad(builder);
-    }
-
     public String getTitle() {
         return title;
     }
@@ -79,6 +75,10 @@ public class Pad {
         public Builder setPrice(float price) {
             this.price = price;
             return this;
+        }
+
+        public Pad build() {
+            return new Pad(this);
         }
     }
 }

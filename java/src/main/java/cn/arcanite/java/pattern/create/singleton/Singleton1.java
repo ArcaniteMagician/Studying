@@ -1,4 +1,4 @@
-package cn.arcanite.java.pattern.singleton;
+package cn.arcanite.java.pattern.create.singleton;
 
 /**
  * 饿汉模式（非线程安全）

@@ -1,6 +1,6 @@
-package cn.arcanite.java.pattern.factory.simple.product;
+package cn.arcanite.java.pattern.create.factory.simple.product;
 
-import cn.arcanite.java.pattern.factory.simple.Pad;
+import cn.arcanite.java.pattern.create.factory.simple.Pad;
 
 /**
  * 具体产品类：要创建的产品。
