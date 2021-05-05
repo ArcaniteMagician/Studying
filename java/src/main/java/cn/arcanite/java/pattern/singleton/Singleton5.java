@@ -2,6 +2,9 @@ package cn.arcanite.java.pattern.singleton;
 
 /**
  * 枚举模式（线程安全）
+ *
+ * @author Jim
+ * @date 2021/05/04
  */
 public enum Singleton5 {
     INSTANCE;

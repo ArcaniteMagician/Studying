@@ -3,6 +3,9 @@ package cn.arcanite.java.pattern.singleton;
 /**
  * 静态内部类模式（线程安全）
  * 保证一个类仅有一个实例对象，同时会提供一个全局访问的方法
+ *
+ * @author Jim
+ * @date 2021/05/04
  */
 public class Singleton4 {
 
@@ -16,7 +19,7 @@ public class Singleton4 {
 
     public void introduce() {
         System.out.println("静态内部类模式，" + Holder.INSTANCE.hashCode());
-        System.out.println("资源利用率高，延迟加载，写法简单");
+        System.out.println("不用synchronized，效率高。延迟加载，资源利用率高。写法简单");
         System.out.println("无法传参");
     }
 

@@ -3,6 +3,9 @@ package cn.arcanite.java.pattern.singleton;
 /**
  * 饿汉模式（非线程安全）
  * 保证一个类仅有一个实例，提供一个访问它的全局访问点。
+ *
+ * @author Jim
+ * @date 2021/05/04
  */
 public class Singleton1 {
     // 静态常量全大写命名

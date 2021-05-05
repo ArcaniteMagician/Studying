@@ -3,6 +3,9 @@ package cn.arcanite.java.pattern.singleton;
 /**
  * 双重检查模式（DCL，线程安全）
  * 保证一个类仅有一个实例，提供一个访问它的全局访问点。
+ *
+ * @author Jim
+ * @date 2021/05/04
  */
 public class Singleton3 {
     // 注：这里的volatile和“=null”非常关键，在JDK1.5之后，可以保证instance对象每次都是从主内存中读取
