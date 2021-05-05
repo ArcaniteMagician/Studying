@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import cn.arcanite.java.model.Person;
 import cn.arcanite.java.model.Teacher;
+import cn.arcanite.java.pattern.builder.Pad;
 import cn.arcanite.java.pattern.singleton.VolatileExample;
 
 import static org.junit.Assert.assertEquals;
@@ -21,6 +22,12 @@ public class ExampleUnitTest {
         // 父类的引用指向子类对象
         anna.showMyJob();
 
-        VolatileExample.test();
+//        VolatileExample.test();
+
+        Pad pad = Pad.load(new Pad.Builder()
+                        .setBrand("小米")
+                        .setSize(10)
+                        .setPrice(1999));
+        System.out.println(pad.getTitle());
     }
 }
