@@ -8,9 +8,9 @@ public class Cinema implements Movie {
 
     private final RealMovie movie;
 
-    public Cinema(RealMovie movie) {
+    public Cinema(String name) {
         System.out.println("---静态代理---");
-        this.movie = movie;
+        this.movie = new RealMovie(name);
     }
 
     @Override

@@ -5,8 +5,7 @@ import org.junit.Test;
 import cn.arcanite.java.model.Person;
 import cn.arcanite.java.model.Teacher;
 import cn.arcanite.java.pattern.create.builder.Pad;
-import cn.arcanite.java.pattern.create.singleton.VolatileExample;
-import cn.arcanite.java.pattern.structure.ProxyExample;
+import cn.arcanite.java.pattern.structure.proxy.ProxyExample;
 
 import static org.junit.Assert.assertEquals;
 
