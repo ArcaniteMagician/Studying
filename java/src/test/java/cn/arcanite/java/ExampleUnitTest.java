@@ -7,6 +7,7 @@ import cn.arcanite.java.model.Teacher;
 import cn.arcanite.java.pattern.create.builder.Pad;
 import cn.arcanite.java.pattern.structure.decorator.DecoratorExample;
 import cn.arcanite.java.pattern.structure.facade.FacadeExample;
+import cn.arcanite.java.pattern.structure.flyweight.FlyweightExample;
 import cn.arcanite.java.pattern.structure.proxy.ProxyExample;
 
 import static org.junit.Assert.assertEquals;
@@ -38,6 +39,8 @@ public class ExampleUnitTest {
 
 //        DecoratorExample.test();
 
-        FacadeExample.test();
+//        FacadeExample.test();
+
+        FlyweightExample.test();
     }
 }
