@@ -5,6 +5,7 @@ import org.junit.Test;
 import cn.arcanite.java.model.Person;
 import cn.arcanite.java.model.Teacher;
 import cn.arcanite.java.pattern.create.builder.Pad;
+import cn.arcanite.java.pattern.structure.adapter.AdapterExample;
 import cn.arcanite.java.pattern.structure.decorator.DecoratorExample;
 import cn.arcanite.java.pattern.structure.facade.FacadeExample;
 import cn.arcanite.java.pattern.structure.flyweight.FlyweightExample;
@@ -41,6 +42,8 @@ public class ExampleUnitTest {
 
 //        FacadeExample.test();
 
-        FlyweightExample.test();
+//        FlyweightExample.test();
+
+        AdapterExample.test();
     }
 }
