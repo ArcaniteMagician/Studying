@@ -7,6 +7,7 @@ import cn.arcanite.java.model.Teacher;
 import cn.arcanite.java.pattern.create.builder.Pad;
 import cn.arcanite.java.pattern.structure.adapter.AdapterExample;
 import cn.arcanite.java.pattern.structure.bridge.BridgeExample;
+import cn.arcanite.java.pattern.structure.composite.CompositeExample;
 import cn.arcanite.java.pattern.structure.decorator.DecoratorExample;
 import cn.arcanite.java.pattern.structure.facade.FacadeExample;
 import cn.arcanite.java.pattern.structure.flyweight.FlyweightExample;
@@ -47,6 +48,8 @@ public class ExampleUnitTest {
 
 //        AdapterExample.test();
 
-        BridgeExample.test();
+//        BridgeExample.test();
+
+        CompositeExample.test();
     }
 }
