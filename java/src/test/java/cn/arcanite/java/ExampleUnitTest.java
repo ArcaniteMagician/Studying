@@ -2,6 +2,8 @@ package cn.arcanite.java;
 
 import org.junit.Test;
 
+import cn.arcanite.java.pattern.behavior.strategy.StrategyExample;
+import cn.arcanite.java.pattern.structure.bridge.BridgeExample;
 import cn.arcanite.java.pattern.structure.composite.CompositeExample;
 
 import static org.junit.Assert.assertEquals;
@@ -30,17 +32,12 @@ public class ExampleUnitTest {
 //        System.out.println(pad.getTitle());
 
 //        ProxyExample.test();
-
 //        DecoratorExample.test();
-
 //        FacadeExample.test();
-
 //        FlyweightExample.test();
-
 //        AdapterExample.test();
-
 //        BridgeExample.test();
-
-        CompositeExample.test();
+//        CompositeExample.test();
+        StrategyExample.test();
     }
 }

@@ -29,6 +29,8 @@ public abstract class NavigationMode {
 
     public void showInfo() {
         System.out.println("名称：" + getName());
+        System.out.println("起点：" + startingPoint);
+        System.out.println("终点：" + endPoint);
         System.out.println("速度：" + vehicle.getSpeed() + "公里/时");
     }
 
