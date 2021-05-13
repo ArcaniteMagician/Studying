@@ -1,6 +1,6 @@
-package cn.arcanite.java.pattern.create.factory.abs.product;
+package cn.arcanite.java.pattern.creator.factory.abs.product;
 
-import cn.arcanite.java.pattern.create.factory.abs.Watch;
+import cn.arcanite.java.pattern.creator.factory.abs.Watch;
 
 /**
  * @author Jim

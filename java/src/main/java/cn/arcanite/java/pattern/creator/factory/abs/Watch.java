@@ -1,4 +1,4 @@
-package cn.arcanite.java.pattern.create.factory.abs;
+package cn.arcanite.java.pattern.creator.factory.abs;
 
 /**
  * @author Jim

@@ -1,4 +1,4 @@
-package cn.arcanite.java.pattern.create.singleton;
+package cn.arcanite.java.pattern.creator.singleton;
 
 /**
  * 变量的内存可见性例子

@@ -1,4 +1,4 @@
-package cn.arcanite.java.pattern.create.builder;
+package cn.arcanite.java.pattern.creator.builder;
 
 import java.math.BigDecimal;
 

@@ -1,4 +1,4 @@
-package cn.arcanite.java.pattern.create.singleton;
+package cn.arcanite.java.pattern.creator.singleton;
 
 /**
  * 双重检查模式（DCL，线程安全）

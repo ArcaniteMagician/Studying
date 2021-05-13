@@ -1,4 +1,4 @@
-package cn.arcanite.java.pattern.create.singleton;
+package cn.arcanite.java.pattern.creator.singleton;
 
 /**
  * 静态内部类模式（线程安全）
