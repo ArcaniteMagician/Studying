@@ -1,4 +1,4 @@
-package cn.arcanite.java.pattern.structure.bridge;
+package cn.arcanite.java.pattern.behavior.strategy;
 
 /**
  * 抽象化（Abstraction）角色

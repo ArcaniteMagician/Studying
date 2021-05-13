@@ -9,5 +9,5 @@ package cn.arcanite.java.pattern.structure.bridge;
  * @date 2021/05/11
  */
 public interface Vehicle {
-    String getMode();
+    float getSpeed();
 }
